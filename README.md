@@ -1,3 +1,9 @@
+## 20230912HPC更新
+
+因为遇到拉取较大镜像文件时，出现no left space on disk问题
+
+因此修改.github/workflow，增加清理服务器空间操作
+
 ## hub-mirror
 
 使用 docker.io (hub.docker.com) 或其他镜像服务来提供（但不限于） gcr.io、registry.k8s.io、k8s.gcr.io、quay.io、ghcr.io
